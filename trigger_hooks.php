@@ -5,7 +5,7 @@
  * HOW TO USE:
  * 1. Upload this file to your 'admin' folder (e.g., /admin123xyz/trigger_hooks.php)
  * 2. Run it from your browser:
- * https://balsat.com/admin123xyz/trigger_hooks.php?batch=100&page=1
+ * https://example.com/admin123xyz/trigger_hooks.php?batch=100&page=1
  *
  * - 'batch': Number of products to process at a time (e.g., 100).
  * - 'page': The page or batch number you want to process (e.g., 1, 2, 3...).
