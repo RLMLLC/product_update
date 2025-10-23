@@ -40,7 +40,7 @@ As a result, ShoppingFeed (and any other module listening for this hook) will "s
 
 ## 5. Installation
 
-1.  Locate your unique PrestaShop admin directory. This is the folder in your PrestaShop root that has been renamed for security (e.g., `admin123xyz`, `admin-balsat`, etc.).
+1.  Locate your unique PrestaShop admin directory. This is the folder in your PrestaShop root that has been renamed for security (e.g., `admin123xyz`, etc.).
 2.  Upload the `trigger_hooks.php` file into this directory.
 
 Placing it in the admin directory provides a basic layer of security, as the URL is not easily guessable.
@@ -51,13 +51,13 @@ Placing it in the admin directory provides a basic layer of security, as the URL
 
 1.  Open your web browser.
 2.  Navigate to the script's URL. For example:
-    `https://balsat.com/admin123xyz/trigger_hooks.php`
+    `https://example.com/admin123xyz/trigger_hooks.php`
 3.  To start the process, you must provide the `batch` and `page` parameters in the URL.
     * `batch`: The number of products to process per page load. A good starting point is `100`.
     * `page`: The batch number to start with. Always start with `1`.
 
 4.  **Start with the first batch:**
-    `https://balsat.com/admin123xyz/trigger_hooks.php?batch=100&page=1`
+    `https://example.com/admin123xyz/trigger_hooks.php?batch=100&page=1`
 
 5.  The script will run and display a list of the product IDs it has processed.
 6.  At the bottom of the page, you will see a link: **"Process Next Batch (Page 2)"**.
